@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-core-ext:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-core-ext/1.0.0/f578ce7d91267187bb2316314cf2a6c245f0b228/koin-core-ext-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-core-ext/1.0.0/78bbc4e727bb5a2c3672a035d8ca4cd864ffaa2f/koin-core-ext-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-core-ext/1.0.0/69e467fb6f1e3b18cb05e48dc8defdb7ce24dc73/koin-core-ext-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
