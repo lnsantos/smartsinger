@@ -5,6 +5,4 @@ class ServiceProcess {
     var username: String? = "Lucas"
     var password: String? = "123456"
 
-
-
 }
