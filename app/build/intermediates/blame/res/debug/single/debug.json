@@ -1480,6 +1480,10 @@
         "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/31016c6c0856b517b84ecfbcfb815ff0/appcompat-1.1.0/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
+        "merged": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/build/intermediates/res/merged/debug/layout_dialog_fragment.xml.flat",
+        "source": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/src/main/res/layout/dialog_fragment.xml"
+    },
+    {
         "merged": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
         "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/31016c6c0856b517b84ecfbcfb815ff0/appcompat-1.1.0/res/color/abc_hint_foreground_material_dark.xml"
     },
