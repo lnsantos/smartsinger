@@ -6,7 +6,7 @@ import android.widget.Toast
 import com.donpeno.smartsinger.R
 import com.donpeno.smartsinger.core.mock.ServiceProcess
 import com.donpeno.smartsinger.main.mvvm.lifecyclers.activitys.MainLifecyclerObserver
-import com.donpeno.smartsinger.main.mvvm.view.dialogs.basicStorage.BasicStorageDialog
+import com.donpeno.smartsinger.main.mvvm.view.dialogs.basicStorage.DialogStorageAlbum
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         onRegisters()
         floatingActionButton2.setOnClickListener{
-            BasicStorageDialog()
+            DialogStorageAlbum()
                 .show(supportFragmentManager, "a")
         }
         Toast.makeText(this,name.username,Toast.LENGTH_LONG).show()

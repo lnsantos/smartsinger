@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#b2fcff</color>
     <color name="colorBackground">#ecfcff</color>
+    <color name="text_white_dialog">#FFFFFF</color>
+    <color name="background_color_default">#181F44</color>
+    <color name="background_color_default_light">#1D295A</color>
 </resources>

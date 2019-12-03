@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">SmartSinger</string>
+    <string name="app_name">SmartSinger - BR</string>
+    <string name="on_create_an_album">Criar um Álbum</string>
+    <string name="finisher">Finalizar</string>
+    <string name="nome_do_album">Nome do Album</string>
+    <string name="loading_await">Carregando aguarde...</string>
 </resources>

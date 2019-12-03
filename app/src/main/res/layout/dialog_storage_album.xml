@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog_default"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_create_an_album"
+        android:textSize="@dimen/title_size_default"
+        android:fontFamily="@font/title_bold_default"
+        android:textColor="@color/text_white_dialog"
+        />
+    <EditText
+        android:id="@+id/input_data_name_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_album"
+        android:textAlignment="center"
+        android:textColorHint="#919191"
+        android:background="@drawable/background_input_open_data"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:padding="16dp"
+        android:layout_margin="6dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button_create_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finisher"
+        android:textSize="@dimen/button_size_default"
+        android:fontFamily="@font/button_light_default"
+        android:textColor="@color/text_white_dialog"
+        android:background="@drawable/background_button_accept_default"
+        android:layout_weight="1"
+        android:layout_margin="6dp"/>
+
+    <LinearLayout
+        android:id="@+id/button_cancel_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:background="@drawable/background_cancel_default"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_exit_white_24dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

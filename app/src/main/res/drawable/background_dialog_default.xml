@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/background_color_default" />
+    <gradient
+        android:gradientRadius="@dimen/cardview_compat_inset_shadow"
+        android:startColor="@color/background_color_default"
+        android:endColor="@color/background_color_default_light"/>
+    <stroke android:color="@color/background_color_default_light"
+        android:width="8dp"
+        android:dashWidth="26dp"/>
+</shape>

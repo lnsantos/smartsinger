@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSinger - USA</string>
+    <string name="on_create_an_album">create an album</string>
+    <string name="finisher">Finisher</string>
+    <string name="nome_do_album">Named album</string>
+    <string name="loading_await">Loading await please</string>
+</resources>
