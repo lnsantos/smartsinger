@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/src/main/res/values-en/dimens.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,55",
+                        "endColumns": "50,49",
+                        "endOffsets": "151,100"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "201,252",
+                        "endColumns": "50,49",
+                        "endOffsets": "247,297"
+                    }
+                },
+                {
+                    "source": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "14,2,4,6,5,3,11,9,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "545,55,173,273,219,110,491,387,337,439",
+                        "endLines": "18,2,4,6,5,3,11,9,8,10",
+                        "endColumns": "19,54,45,62,53,62,51,51,49,51",
+                        "endOffsets": "686,105,214,331,268,168,538,434,382,486"
+                    },
+                    "to": {
+                        "startLines": "2,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,302,357,403,466,520,583,635,687,737",
+                        "endLines": "6,9,10,11,12,13,14,15,16,17",
+                        "endColumns": "19,54,45,62,53,62,51,51,49,51",
+                        "endOffsets": "196,352,398,461,515,578,630,682,732,784"
+                    }
+                }
+            ]
+        }
+    ]
+}

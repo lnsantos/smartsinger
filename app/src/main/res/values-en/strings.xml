@@ -5,4 +5,17 @@
     <string name="finisher">Finisher</string>
     <string name="nome_do_album">Named album</string>
     <string name="loading_await">Loading await please</string>
+
+    <string name="title_label_home">Home</string>
+    <string name="title_label_album">Album</string>
+    <string name="title_label_music">Music</string>
+    <string name="title_label_about">About</string>
+
+
+    <string-array name="tab_view_titles">
+        <item>Album</item>
+        <item>My music</item>
+        <item>About</item>
+    </string-array>
+
 </resources>

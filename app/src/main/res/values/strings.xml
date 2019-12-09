@@ -4,4 +4,19 @@
     <string name="finisher">Finalizar</string>
     <string name="nome_do_album">Nome do Album</string>
     <string name="loading_await">Carregando aguarde...</string>
+
+    <string name="title_label_home">Inicio</string>
+    <string name="title_label_album">Album</string>
+    <string name="title_label_music">Musicas</string>
+    <string name="title_label_about">Sobre</string>
+
+    <string-array name="tab_view_titles">
+        <item>Album</item>
+        <item>Minhas músicas</item>
+        <item>Sobre</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
 </resources>
