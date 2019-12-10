@@ -3,16 +3,45 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
+def compileConfig = [
+        sdk   : 29,
+        tools : '29.0.2']
+
+def gradleConfig = [
+        packaged     : 'com.donpeno.smartsinger',
+        minAndroid   : 23,
+        maxAndroid   : 29,
+        versionNumber: 100100,
+        versionNamed : 'develop-0.10.0']
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion compileConfig.sdk
+    buildToolsVersion compileConfig.tools
     defaultConfig {
-        applicationId "com.donpeno.smartsinger"
-        minSdkVersion 23
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        applicationId gradleConfig.packaged
+        minSdkVersion gradleConfig.minAndroid
+        targetSdkVersion gradleConfig.maxAndroid
+        versionCode gradleConfig.versionNumber
+        versionName gradleConfig.versionNamed
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions{
+            annotationProcessorOptions {
+                arguments = [
+                        "room.schemaLocation":"$projectDir/schemas".toString(),
+                        "room.incremental":"true",
+                        "room.expandProjection":"true"]
+            }
+        }
+
+        // Settings od database
+        buildConfigField("int","DATABASE_VERSION","100")
+        buildConfigField("String","DATABASE_NAME","\"appsmartsinger.db\"")
+
+        //labels
+        buildConfigField("String","APP_LABEL_VERSION","\"" +gradleConfig.versionNumber + " | "+ gradleConfig.versionNamed + "\"")
+
+
     }
     buildTypes {
         release {
@@ -21,7 +50,6 @@ android {
         }
     }
 }
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -36,8 +64,6 @@ dependencies {
 
     // room implementation
     implementation "androidx.room:room-runtime:$room_version"
-    implementation "androidx.room:room-ktx:$room_version"
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.room:room-compiler:$room_version"
 
     //Viewmodel e LiveData
@@ -53,3 +79,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.google.android.material:material:1.0.0'
 }
+
+
+

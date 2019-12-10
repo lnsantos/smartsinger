@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_view_titles">
+        <item>Album</item>
+        <item>My music</item>
+        <item>About</item>
+    </string-array>
+    <dimen name="button_size_default">18sp</dimen>
+    <dimen name="title_size_default">26sp</dimen>
+    <string name="app_name">SmartSinger - USA</string>
+    <string name="finisher">Finisher</string>
+    <string name="loading_await">Loading await please</string>
+    <string name="nome_do_album">Named album</string>
+    <string name="on_create_an_album">create an album</string>
+    <string name="title_label_about">About</string>
+    <string name="title_label_album">Album</string>
+    <string name="title_label_home">Home</string>
+    <string name="title_label_music">Music</string>
+</resources>

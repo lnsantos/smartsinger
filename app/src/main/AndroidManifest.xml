@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:name=".core.application.SmartSingerApplication"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.mvvm.view.MainActivity">
+        <activity android:name="com.donpeno.smartsinger.main.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

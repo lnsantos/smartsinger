@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "outputFile": "/home/dev/Área de Trabalho/smartsinger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/src/main/res/values-en/dimens.xml",
+                    "source": "/home/dev/Área de Trabalho/smartsinger/app/src/main/res/values-en/dimens.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/src/main/res/values-en/strings.xml",
+                    "source": "/home/dev/Área de Trabalho/smartsinger/app/src/main/res/values-en/strings.xml",
                     "from": {
                         "startLines": "14,2,4,6,5,3,11,9,8,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

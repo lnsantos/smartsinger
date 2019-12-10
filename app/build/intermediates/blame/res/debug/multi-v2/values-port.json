@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lucas/Área de Trabalho/ARQUIVOS_TEMPORARIOS/smartsinger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/dev/Área de Trabalho/smartsinger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/31016c6c0856b517b84ecfbcfb815ff0/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "source": "/home/dev/.gradle/caches/transforms-2/files-2.1/31016c6c0856b517b84ecfbcfb815ff0/appcompat-1.1.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

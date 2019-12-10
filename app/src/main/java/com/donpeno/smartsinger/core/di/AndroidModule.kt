@@ -1,6 +1,5 @@
 package com.donpeno.smartsinger.core.di
 
-import androidx.lifecycle.LifecycleObserver
 import com.donpeno.smartsinger.core.mock.ServiceProcess
 import com.donpeno.smartsinger.main.mvvm.lifecyclers.activitys.MainLifecyclerObserver
 import com.donpeno.smartsinger.main.mvvm.lifecyclers.dialogs.DialogBasicStorageLifecyclerObserver
@@ -11,5 +10,5 @@ val androidModule = module{
     single { ServiceProcess()  }
     single { MainLifecyclerObserver()}
     single { DialogBasicStorageLifecyclerObserver()}
-
 }
+

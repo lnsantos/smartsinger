@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 100,
+    "identityHash": "4b9674d38a101c26539e9f278587fbbc",
+    "entities": [
+      {
+        "tableName": "album",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`ID_TABLE_COLUMN` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `NAME_ALBUM_COLUMN` TEXT, `IMAGE_DIR_COLUMN` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "ID_TABLE_COLUMN",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "NAME_ALBUM_COLUMN",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "image",
+            "columnName": "IMAGE_DIR_COLUMN",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "ID_TABLE_COLUMN"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4b9674d38a101c26539e9f278587fbbc')"
+    ]
+  }
+}
